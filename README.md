@@ -22,7 +22,6 @@ Nuestra aplicación de dosificación médica, alojada en la nube de Azure, está
 
  
 
-![Diagrama de Arquitectura](enlace-al-diagrama) 
 
   
 
