@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionar Medicamentos</title>
+    <link rel="stylesheet" href="css/estilosG.css">
+</head>
+<body>
+    <header class="Encabezado">
+        <h1 class="titulo">Dosificación Médica</h1>
+        <nav class="nav-buttons">
+            <button type="button" class="btn-nav" onclick="location.href='Administrador.html'">Crear Medicamento</button>
+            <button type="button" class="btn-cerrar-sesion" onclick="location.href='index.html'">Cerrar Sesión</button>
+        </nav>
+    </header>
+    <main>
+        <section class="manage-container">
+            <h2>Gestión de Medicamentos</h2>
+            <form class="search-form">
+                <input type="text" placeholder="Buscar medicamento..." id="search">
+                <button type="submit">Buscar</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Dosis</th>
+                        <th>Modo de Administración</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se mostrarán los medicamentos -->
+                    <!-- Ejemplo de fila -->
+                    <tr>
+                        <td>001</td>
+                        <td>Paracetamol</td>
+                        <td>500 mg</td>
+                        <td>Oral</td>
+                        <td>
+                            <button class="btn-update">Actualizar</button>
+                            <button class="btn-delete">Eliminar</button>
+                        </td>
+                    </tr>
+                    <!-- Más filas aquí -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dosificación Médica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+/* Estilo general del cuerpo de la página */
+body {
+    background: linear-gradient(to bottom, #00aaff, #99ccff, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header.Encabezado {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el título en el encabezado */
+header .titulo {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilo para los botones de navegación */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons .btn-nav {
+    background-color: #005bbb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-buttons .btn-nav:hover {
+    background-color: #004494; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.btn-cerrar-sesion {
+    background-color: #ff4c4c; /* Rojo para indicar una acción importante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Más redondeado */
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: #cc0000; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el contenedor de gestión de medicamentos */
+.manage-container {
+    background: white;
+    margin: auto;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+/* Estilo para el título de la sección de gestión */
+.manage-container h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #007acc;
+}
+
+/* Estilo para el formulario de búsqueda */
+.search-form {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.search-form input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: calc(100% - 130px);
+    display: inline-block;
+}
+
+.search-form button {
+    background-color: #007acc;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.search-form button:hover {
+    background-color: #005999;
+}
+
+/* Estilo para la tabla de medicamentos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: 0.8em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007acc;
+    color: white;
+}
+
+/* Estilo para los botones de actualizar y eliminar en la tabla */
+.btn-update, .btn-delete {
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.btn-update {
+    background-color: #00bfff;
+}
+
+.btn-update:hover {
+    background-color: #0099cc;
+}
+
+.btn-delete {
+    background-color: #ff4c4c;
+}
+
+.btn-delete:hover {
+    background-color: #cc0000;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

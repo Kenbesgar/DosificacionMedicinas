@@ -1,0 +1,112 @@
+/* Estilo para el fondo de la página */
+body {
+    background: linear-gradient(to bottom, #00aaff, #99ccff, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal innecesario */
+}
+
+/* Estilo para el encabezado */
+header.Encabezado {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el título */
+header .titulo {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilo para los botones de navegación */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilo para los botones de navegación */
+.btn-nav {
+    background-color: #005bbb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn-nav:hover {
+    background-color: #004494; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.btn-cerrar-sesion {
+    background-color: #ff4c4c; /* Rojo para indicar una acción importante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Más redondeado */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: #cc0000; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para la sección principal */
+main .table-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+}
+
+/* Estilo para la tabla de medicamentos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word; /* Asegura que el texto largo se ajuste */
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/32f1fe53-f70d-4800-89ae-1d5fffdbcb4c/resourceGroups/CCDef/providers/Microsoft.Web/sites/dosificaciondef",
+    "appService.deploySubpath": "."
+}

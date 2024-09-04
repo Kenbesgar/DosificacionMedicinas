@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicamentos</title>
+    <link rel="stylesheet" href="css/estilosM.css">
+</head>
+<body>
+    <header class="Encabezado">
+        <h1 class="titulo">Dosificación Médica</h1>
+        <button class="btn-cerrar-sesion" onclick="location.href='index.html'">Cerrar Sesión</button>
+    </header>
+    <main>
+        <section class="medication-list">
+            <h2>Lista de Medicamentos</h2>
+            <!-- Contenedor de botones para la navegación -->
+            <div class="button-container">
+                <a href="index.html" class="btn-nav">Inicio</a>
+                <a href="Medicamentos.html" class="btn-nav">Medicamentos</a>
+                <a href="contactenos.html" class="btn-nav">Contáctenos</a>
+            </div>
+            <!-- Tabla de medicamentos de ejemplo -->
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Dosis</th>
+                            <th>Modo de Administración</th>
+                            <th>Contraindicaciones</th>
+                            <th>Interacciones</th>
+                            <th>Efectos Secundarios</th>
+                            <th>Precauciones</th>
+                            <th>Monitoreo</th>
+                            <th>Sobredosis</th>
+                            <th>Almacenamiento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Aspirina</td>
+                            <td>500 mg</td>
+                            <td>Oral</td>
+                            <td>Úlceras gástricas</td>
+                            <td>Anticoagulantes</td>
+                            <td>Dolor de estómago</td>
+                            <td>No tomar con alcohol</td>
+                            <td>Revisar función renal</td>
+                            <td>Puede causar hemorragias</td>
+                            <td>Almacenar en lugar seco</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Paracetamol</td>
+                            <td>500 mg</td>
+                            <td>Oral</td>
+                            <td>Enfermedad hepática</td>
+                            <td>Alcohol</td>
+                            <td>Erupción cutánea</td>
+                            <td>No exceder dosis recomendada</td>
+                            <td>Monitorear función hepática</td>
+                            <td>Puede causar daño hepático</td>
+                            <td>Almacenar a temperatura ambiente</td>
+                        </tr>
+                        <!-- Puedes añadir más filas de ejemplo aquí -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dosificación Médica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

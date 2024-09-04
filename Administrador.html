@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Medicamento</title>
+    <link rel="stylesheet" href="css/estilosA.css">
+</head>
+<body>
+    <header class="Encabezado">
+        <h1 class="titulo">Dosificación Médica</h1>
+        <nav class="nav-buttons">
+            <button class="btn-gestionar" onclick="location.href='GestionMedicamentos.html'">Gestionar Medicamentos</button>
+            <button class="btn-cerrar-sesion" onclick="location.href='index.html'">Cerrar Sesión</button>
+        </nav>
+    </header>
+    <main>
+        <section class="register-container">
+            <h2>Registrar Medicamento</h2>
+            <form id="medicationForm" action="save_medication.php" method="POST">
+                <!-- Campos del formulario aquí -->
+                <div class="form-group">
+                    <label for="id">ID:</label>
+                    <input type="text" id="id" name="id" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dose">Dosis:</label>
+                    <input type="text" id="dose" name="dose" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="administration">Modo de Administración:</label>
+                    <input type="text" id="administration" name="administration" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="contraindications">Contraindicaciones:</label>
+                    <textarea id="contraindications" name="contraindications" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="interactions">Interacciones:</label>
+                    <textarea id="interactions" name="interactions" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="side_effects">Efectos Secundarios:</label>
+                    <textarea id="side_effects" name="side_effects" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="precautions">Precauciones:</label>
+                    <textarea id="precautions" name="precautions" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="monitoring">Monitoreo:</label>
+                    <textarea id="monitoring" name="monitoring" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="overdose">Sobredosis:</label>
+                    <textarea id="overdose" name="overdose" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="storage">Almacenamiento:</label>
+                    <textarea id="storage" name="storage" rows="3" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-register">Registrar Medicamento</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dosificación Médica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

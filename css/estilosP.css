@@ -1,0 +1,111 @@
+/* Estilo para el fondo de la página */
+body {
+    background: linear-gradient(to bottom, #00aaff, #99ccff, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header.Encabezado {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el título */
+header .titulo {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilo para los botones de navegación */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons .btn-nav {
+    background-color: #005bbb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-buttons .btn-nav:hover {
+    background-color: #004494; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el botón de cerrar sesión */
+.btn-cerrar-sesion {
+    background-color: #ff4c4c; /* Rojo para indicar una acción importante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Más redondeado */
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: #cc0000; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para la sección principal */
+main .contenido-principal {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los subtítulos dentro de la sección principal */
+.contenido-principal h3 {
+    color: #003366;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+/* Estilo para los párrafos dentro de la sección principal */
+.contenido-principal p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Estilo para las imágenes en la sección principal */
+.contenido-principal .imagen-principal {
+    max-width: 70%; /* Ajusta el tamaño de la imagen principal */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contenido-principal .imagen-secundaria {
+    max-width: 48%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+/* Estilo para alinear las imágenes secundarias */
+.contenido-principal .imagen-secundaria:nth-child(even) {
+    margin-right: 0; /* Quitar el margen derecho en las imágenes pares */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
