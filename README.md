@@ -46,7 +46,7 @@ Realiza pruebas exhaustivas para verificar que no haya errores.
 1.Descarga ADB desde el sitio oficial de Android o usa un paquete independiente1.
 2.Descomprime el archivo ZIP en una carpeta accesible, por ejemplo, C:\ADB.
 
-##Activar la Depuración USB en tu Android:
+## Activar la Depuración USB en tu Android:
 
 1.Ve a Ajustes > Acerca del teléfono.
 2.Pulsa varias veces sobre Número de compilación hasta activar las Opciones de desarrollador.
