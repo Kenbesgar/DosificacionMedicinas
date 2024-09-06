@@ -39,9 +39,9 @@ Esto puede incluir la creación de tablas, usuarios, y permisos necesarios.
 7.Probar la Aplicación: Accede a la aplicación desde un navegador web para asegurarte de que todo funcione correctamente.
 Realiza pruebas exhaustivas para verificar que no haya errores.
 
-###Conexión ADB
+### Conexión ADB
 
-##Instalar ADB:
+## Instalar ADB:
 
 1.Descarga ADB desde el sitio oficial de Android o usa un paquete independiente1.
 2.Descomprime el archivo ZIP en una carpeta accesible, por ejemplo, C:\ADB.
@@ -52,7 +52,7 @@ Realiza pruebas exhaustivas para verificar que no haya errores.
 2.Pulsa varias veces sobre Número de compilación hasta activar las Opciones de desarrollador.
 3.En Opciones de desarrollador, activa Depuración por USB.
 
-##Conectar el Dispositivo:
+## Conectar el Dispositivo:
 
 1.Conecta tu dispositivo Android al PC mediante un cable USB.
 2.Abre una terminal de comandos en la carpeta donde descomprimiste ADB (C:\ADB).
@@ -67,9 +67,9 @@ Realiza pruebas exhaustivas para verificar que no haya errores.
 
 - *Servicio de Autenticación: Flask, Microsoft Defender for cloud que asegura la autenticidad de los usuarios. 
 
-###CRUD
+### CRUD
 
-##CONECCION A LA BASE DE DATOS
+## CONECCION A LA BASE DE DATOS
 
 <?php
 $servername = "nombre_del_servidor"; 
@@ -86,7 +86,7 @@ if ($conn->connect_error) {
 }
 ?>
 
-##CREAR
+## CREAR
 
 <?php
 if(isset($_POST['submit'])){
@@ -108,7 +108,7 @@ if(isset($_POST['submit'])){
     <button type="submit" name="submit">Añadir Medicamento</button>
 </form>
 
-##LEER
+## LEER
 
 <?php
 $sql = "SELECT id, nombre, dosis FROM medicamentos";
@@ -123,7 +123,7 @@ if ($result->num_rows > 0) {
 }
 ?>
 
-##ACTUALIZAR
+## ACTUALIZAR
 
 <?php
 if(isset($_POST['update'])){
@@ -147,7 +147,7 @@ if(isset($_POST['update'])){
     <button type="submit" name="update">Actualizar Medicamento</button>
 </form>
 
-##ELIMINAR
+## ELIMINAR
 
 <?php
 if(isset($_POST['delete'])){
